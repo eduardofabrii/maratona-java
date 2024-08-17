@@ -21,7 +21,11 @@ public class Anime {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
-        System.out.println(this.genero);
+        if (this.genero == null) {
+            System.out.println("Genero não indicado");
+        } else {
+            System.out.println(this.genero);
+        }
     }
 
     public String getGenero() {
