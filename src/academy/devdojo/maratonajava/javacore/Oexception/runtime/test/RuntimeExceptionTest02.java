@@ -7,7 +7,7 @@ public class RuntimeExceptionTest02 {
         System.out.println(divisao(2, 1));
 
         try {
-            System.out.println(divisao(1,1));
+            System.out.println(divisao(1, 0));
         } catch (RuntimeException e) {
             e.printStackTrace();
         }
