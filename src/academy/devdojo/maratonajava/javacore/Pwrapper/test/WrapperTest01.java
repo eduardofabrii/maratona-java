@@ -23,5 +23,14 @@ public class WrapperTest01 {
         int i = intW;  // unboxing
         Integer intW2 = Integer.parseInt("2");
         System.out.println(intW2.getClass());
+        boolean b = Boolean.parseBoolean("true");
+        System.out.println(b);
+
+        System.out.println(Character.isAlphabetic('2'));
+        System.out.println(Character.isDigit('a'));
+        System.out.println(Character.isDigit('2'));
+        System.out.println(Character.isLetterOrDigit('9'));
+        System.out.println(Character.toUpperCase('a'));
+        System.out.println(Character.toUpperCase('!'));
     }
 }
