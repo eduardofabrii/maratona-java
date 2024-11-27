@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Qstring.test;
 
-import java.awt.desktop.SystemEventListener;
-
 public class StringPerformanceTest01 {
     public static void main(String[] args) {
         long inicio = System.currentTimeMillis();
