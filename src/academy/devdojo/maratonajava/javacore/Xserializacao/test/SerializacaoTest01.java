@@ -11,9 +11,9 @@ public class SerializacaoTest01 {
     public static void main(String[] args) {
         File dir = new File("pasta-alunos");
         dir.mkdir();
-//        Aluno aluno = new Aluno(1L, "Eduardo Fabri", "123456");
+        Aluno aluno = new Aluno(1L, "Eduardo Fabri", "123456");
+        serializar(aluno);
         deserializar();
-
     }
 
     private static void serializar(Aluno aluno) {
