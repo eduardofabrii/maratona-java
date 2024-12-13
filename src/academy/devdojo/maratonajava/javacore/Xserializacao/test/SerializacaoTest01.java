@@ -1,6 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Xserializacao.test;
 
 import academy.devdojo.maratonajava.javacore.Xserializacao.dominio.Aluno;
+import academy.devdojo.maratonajava.javacore.Xserializacao.dominio.Turma;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -12,6 +13,8 @@ public class SerializacaoTest01 {
         File dir = new File("pasta-alunos");
         dir.mkdir();
         Aluno aluno = new Aluno(1L, "Eduardo Fabri", "123456");
+        Turma turma = new Turma("Maratona Java do DevvvvDojo em breve ricos");
+        aluno.setTurma(turma);
         serializar(aluno);
         deserializar();
     }
