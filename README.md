@@ -1,2 +1,7 @@
-# maratona-java
- Maratona Java com DevDojo
+# Maratona Java
+
+Estudos de Java através da Maratona Java, do DevDojo.
+
+## Tecnologias
+
+- Java
